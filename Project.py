@@ -5,7 +5,7 @@ import requests
 # read the .csv files
 airlines = pd.read_csv('airlines.csv')
 airports = pd.read_csv('airports.csv')
-flights = pd.read_csv('flights.csv')
+flights = pd.read_csv('flights_interest.csv')
 
 # display a concise summary of dataframes
 airlines.info()
